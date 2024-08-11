@@ -21,9 +21,6 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [

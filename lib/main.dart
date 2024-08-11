@@ -19,12 +19,13 @@ class MyApp extends StatelessWidget {
         BlocProvider(create: (_) => CounterBloc())
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Flutter Demo',
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const Home(title: 'Flutter Demo Home Page'),
+        home: const Home(title: 'Counter App with Bloc and Cubit'),
       ),
     );
   }
